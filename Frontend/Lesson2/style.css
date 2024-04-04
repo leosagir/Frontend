@@ -1,0 +1,46 @@
+*{margin: center;
+    padding: center;
+}
+body{
+    background-color: azure;
+}
+p{
+    color: blue;
+}
+p.green{
+    color: green;
+}
+#blue{color: blue;}
+.nth{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.block{
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+}
+.nth div:nth-child(even){
+    background-color: blue;
+}
+.nth div:nth-child(odd){
+    background-color: greenyellow;
+}
+section{
+
+    justify-content: center;
+    align-items: center;
+        text-align: center;
+    border-radius: 15px;
+    width: 80%;
+    height: 250px;
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+}

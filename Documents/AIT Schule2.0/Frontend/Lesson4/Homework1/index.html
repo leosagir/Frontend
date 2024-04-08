@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration letter to Santa</title>
+</head>
+<body>
+    <form action="./greetings.html" method="get" id="registration">
+<H1>Письмо Санте</H1>
+<br>
+<h3>Дорогой друг, для того чтобы отправить письмо Санте, тебе нужно зарегистрироваться.</h3>
+<div>
+    <label for="email_"></label>
+    <input id="email_" type="email" placeholder="Введите Ваш E-mail" required>
+</div>
+<div>
+    <label for="password"></label>
+    <input type="password" id="password" placeholder="Введите Ваш пароль" required>
+</div>
+<div>
+    <label for="name"></label>
+    <input type="text" id="name" placeholder="Ваше имя" required>
+</div>
+    <div>
+        <p>Ты мальчик или девочка?:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">мальчик</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">девочка</label><br>
+    </div>
+    <div>
+    <label for="birth-date">День рождения</label>
+    <input type="date" name="birth-date" id="birth-date">
+</div>
+<div>
+    <label for="city">Где ты живёшь?</label>
+    <select name="city" id="contact-form">
+        <option value="Berlin">Berlin</option>
+        <option value="Stuttgart">Stuttgart</option>
+        <option value="München">München</option>
+    </select>
+</div>
+<div>
+    <p>Выбери цвет твоей новой игрушки:</p>
+    <input type="color" name="color" id="color-up">
+    <label for="color-up">Цвет шапочки + </label>
+    <label for="color-down">цвет костюма</label>
+    <input type="color" name="color" id="color down">
+</div>
+
+<div>
+<p>Ты был хорошим ребёнком?</p>
+<input type="checkbox" id="YES" name="Gud" value="YES">
+<label for="YES">Да!</label>
+<input type="checkbox" id="NO" name="NO" value="NO">
+<label for="NO">Нет</label>
+</div>
+<div>
+    <p>Действие</p>
+    <button type="submit">отправить</button>
+    <button type="reset">очистить форму</button>
+
+</div>
+    
+    </form>
+    
+</body>
+</html>

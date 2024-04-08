@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aliceblue;
+}
+
+p{
+    text-align: center;
+    text-decoration: double;
+    border-radius: 15px;
+    width: 80%;
+    height: 120%;
+    border: 2px solid rgb(240, 8, 8);
+    margin: 30px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0));
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+p span{
+    font-style: italic;
+    text-align: center;
+    text-decoration: double;
+    border-radius: 1px;
+    border: 1px solid rgb(40, 8, 180);
+    margin: 3px;
+    padding: 1px;}
+    
+
+h1{
+    text-align: center;
+    
+}
+p img{
+    width: 100%; 
+    height: auto;
+    
+    }
+    

@@ -1,0 +1,29 @@
+h1{
+    margin: 0;
+}
+button{
+    width: 200px;
+    margin-bottom: 5px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+#btn1{
+    background-color: aqua;
+}
+#btn2{
+    background-color: blanchedalmond;
+}
+#btn3{
+    background-color: rgba(rgba(102, 48, 48, 0.63), green, blue, alpha);
+}
+#btn4{
+    background-color: coral;
+}
+.hidden{
+    visibility: hidden;
+}
+#btn6{
+    background-color: rgb(123, 123, 240);
+}

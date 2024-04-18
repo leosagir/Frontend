@@ -1,0 +1,30 @@
+.btn-container{
+    font-size: 0;
+}
+.btn{
+    border:none;
+    background-color: rgb(98, 197, 111);
+    color: white;
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.left{
+    background-color: rgb(98, 197, 111);
+    color: white;
+    margin-right: 0;
+    display: inline;
+    padding: 10px;
+    border-radius:10px 0 0 10px;
+    border: 1px solid black;
+}
+.right{
+    background-color: rgb(233, 72, 96);
+    color: white;
+    display: inline;
+    margin-left: 0;
+    padding: 10px;
+    border-radius:0 10px 10px 0 ;
+    border: 1px solid black;
+}

@@ -1,0 +1,28 @@
+.container{
+    margin: 50px;
+    background-color: lightblue;
+    border-radius: 15px;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.button{
+    background-color: aliceblue;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.counter{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color:brown
+}
+.center{
+    display: flex;
+    justify-content: center;
+}

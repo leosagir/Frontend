@@ -1,0 +1,40 @@
+#main{
+    width: 600px;
+    height: 300px;
+    border:1px solid #c3c3c3;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#main div{
+    width: 140px;
+    height: 140px;
+    color: rgb(149, 22, 223);
+    
+    
+}
+
+#myRedDiv{
+    background-color: red;
+    order: 6;
+}
+#myBlueDiv{
+    background-color: blue;
+    order: 5;
+}
+#myGreenDiv{
+    background-color: green;
+    order: 4;
+}
+#myPinkDiv{
+    background-color: pink;
+    order: 3;
+}
+#myBlackDiv{
+    background-color: black;
+    order: 2;
+}
+#myYellowDiv{
+    background-color: yellow;
+    order: 1;
+}
